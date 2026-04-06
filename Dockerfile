@@ -28,4 +28,4 @@ ENV PYTHONUNBUFFERED=1 \
 EXPOSE 8080
 
 # Command to run the application
-CMD ["python", "-m", "uvicorn", "main:app", "--reload"]
+CMD ["python", "main.py"]
