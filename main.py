@@ -18,7 +18,7 @@ logger = logging.getLogger(__name__)
 app = FastAPI(title="Agent Workflow Builder API")
 
 # This API is intended to listen on port 8001 (agent defaults to 8000).
-WORKFLOW_BUILDER_PORT = 8001
+WORKFLOW_BUILDER_PORT = 8080
 
 # Groq (OpenAI-compatible chat API). Set GROQ_API_KEY in .env
 GROQ_MODEL = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
